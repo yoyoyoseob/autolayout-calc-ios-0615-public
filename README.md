@@ -6,17 +6,16 @@ languages:objc
 # Auto Layout Calculator
 
   1. open up Open-Me
-  2. We have the basics of a calculator set up.
-  3. The bottom Buttons should take up the bottom half of the screen. They
-     should be equally gridded in the bottom half. **hint: You can make the
-     buttons bigger without them looking bigger...**
-  4. The top uitextfield should be flush against the top layout guide
-  5. The top uitextfield should be as wide as the screen.
-  6. Make this work in both Landscape and Portrait
+  2. Open Me has two container views that should each be laid out to occupy vertical halves of the screen.  
+  3. The top container view has a single UIText field.  Pin the text field 30 pts from the top of the container view and the standard distance from the leading and trailing edges. 
+  4. The bottom container has the 12 buttons of the calculator.  These buttons should all be equal sizes and touching either the edge of the container view or an adjacent button on all sides.  
+
+  5.  The end result will be the bottom container view being a 4 * 4 grid of buttons with 0 margins.
+
+  For more details see the FISViewControllerSpec.m   
 
 ## Extra Credit
 
-  1. Add another column of operators (*,/,+,-)
-  2. Make the calculator work! It's actually a bit less straight forward then
+  1. Make the calculator work! It's actually a bit less straight forward then
      you think.
 
