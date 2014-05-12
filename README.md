@@ -13,8 +13,9 @@ languages:objc
   5.  The end result will be the bottom container view being a 4 * 4 grid of buttons with 0 margins.
 
   For more details see the FISViewControllerSpec.m
-  ![Alt text](screenshot.jpg?raw=true "Optional Title")
+
+  ##ScreenShot
+  ![Alt text](screenshot.png?raw=true "Optional Title")
 ## Extra Credit
 
-  1. Make the calculator work! It's actually a bit less straight forward then
-     you think.
+  Make the calculator work! It's actually a bit less straight forward then you think.
