@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8mU-NI-3PM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8mU-NI-3PM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,11 +19,9 @@
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LK9-BF-aRw">
                                 <rect key="frame" x="0.0" y="284" width="320" height="284"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-Le-zPn">
                                         <rect key="frame" x="29" y="19" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="1"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="1">
@@ -31,7 +30,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-pc-thl">
                                         <rect key="frame" x="110" y="19" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="2"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="2">
@@ -40,7 +38,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-kW-1cq">
                                         <rect key="frame" x="191" y="19" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="3">
@@ -49,7 +46,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
                                         <rect key="frame" x="29" y="91" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="4"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="4">
@@ -58,7 +54,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
                                         <rect key="frame" x="110" y="91" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="5">
@@ -67,7 +62,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
                                         <rect key="frame" x="191" y="91" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="6"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="6">
@@ -76,7 +70,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
                                         <rect key="frame" x="29" y="163" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="7"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="7">
@@ -85,25 +78,14 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
                                         <rect key="frame" x="110" y="163" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="8"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="8">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
-                                        <rect key="frame" x="191" y="163" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <accessibility key="accessibilityConfiguration" label="9"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="9">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
                                         <rect key="frame" x="29" y="235" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="0">
@@ -112,7 +94,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
                                         <rect key="frame" x="110" y="235" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="."/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title=".">
@@ -121,7 +102,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
                                         <rect key="frame" x="191" y="235" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="="/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="=">
@@ -130,7 +110,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
                                         <rect key="frame" x="272" y="163" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="-"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="-">
@@ -139,7 +118,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
                                         <rect key="frame" x="272" y="91" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="x"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="x">
@@ -148,7 +126,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
                                         <rect key="frame" x="272" y="19" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="/"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="/">
@@ -157,10 +134,17 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
                                         <rect key="frame" x="272" y="235" width="20" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="+"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="+">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
+                                        <rect key="frame" x="191" y="163" width="20" height="30"/>
+                                        <accessibility key="accessibilityConfiguration" label="9"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="9">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -172,11 +156,9 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvx-iX-YZJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
                                         <rect key="frame" x="18" y="127" width="284" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration" label="displayTextField"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -191,25 +173,23 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="additionButton" destination="4Mv-tY-Kmr" id="WsJ-B9-rus"/>
-                        <outlet property="bottomContainerView" destination="LK9-BF-aRw" id="o6j-bH-JHU"/>
-                        <outlet property="decimalButton" destination="cel-WX-uPK" id="Ma6-W3-ZWc"/>
-                        <outlet property="displayTextField" destination="yV0-KJ-CTc" id="9Pm-Yl-L5r"/>
-                        <outlet property="divideButton" destination="1TZ-nz-qdy" id="0dl-oi-Jta"/>
-                        <outlet property="eightButton" destination="DB0-kA-tll" id="2A6-eD-oAl"/>
-                        <outlet property="equalsButton" destination="EpZ-UJ-p7h" id="ffH-hQ-1DI"/>
-                        <outlet property="fiveButton" destination="1Se-RN-pgZ" id="Rn6-jo-e2X"/>
-                        <outlet property="fourButton" destination="rTm-G3-deF" id="RYF-Rg-CTZ"/>
-                        <outlet property="minusButton" destination="TMm-EA-SSY" id="fff-9H-u7Y"/>
-                        <outlet property="multiplyButton" destination="zES-c3-49V" id="miy-5L-FmX"/>
-                        <outlet property="nineButton" destination="Pa0-Mb-Q0M" id="KCS-QB-0cp"/>
-                        <outlet property="oneButton" destination="mTU-Le-zPn" id="uB8-dG-RMi"/>
-                        <outlet property="sevenButton" destination="RNU-7g-SM4" id="aHI-LN-0rd"/>
-                        <outlet property="sixButton" destination="NbG-23-VA1" id="y66-5Q-qvo"/>
-                        <outlet property="threeButton" destination="wdu-kW-1cq" id="xAf-Uv-NkM"/>
-                        <outlet property="topContainerView" destination="Lvx-iX-YZJ" id="vBY-dp-kCw"/>
-                        <outlet property="twoButton" destination="EUT-pc-thl" id="JcD-rg-AWO"/>
-                        <outlet property="zeroButton" destination="fbb-Rv-xZy" id="cY5-YP-kd1"/>
+                        <outlet property="additionButton" destination="4Mv-tY-Kmr" id="u66-Kr-MRy"/>
+                        <outlet property="buttonsContainer" destination="LK9-BF-aRw" id="Bpd-l9-9Bp"/>
+                        <outlet property="decimalButton" destination="cel-WX-uPK" id="tLq-uu-oV7"/>
+                        <outlet property="divideButton" destination="1TZ-nz-qdy" id="gzR-yv-LKX"/>
+                        <outlet property="eightButton" destination="DB0-kA-tll" id="lwO-y7-qsh"/>
+                        <outlet property="equalButton" destination="EpZ-UJ-p7h" id="Tpu-et-hrd"/>
+                        <outlet property="fiveButton" destination="1Se-RN-pgZ" id="asi-5s-6Jq"/>
+                        <outlet property="fourButton" destination="rTm-G3-deF" id="KQl-Ng-fEg"/>
+                        <outlet property="multiplyButton" destination="zES-c3-49V" id="7OX-xh-yFe"/>
+                        <outlet property="nineButton" destination="Pa0-Mb-Q0M" id="EOI-PI-aLH"/>
+                        <outlet property="oneButton" destination="mTU-Le-zPn" id="heG-ez-inx"/>
+                        <outlet property="sevenButton" destination="RNU-7g-SM4" id="dsi-D3-Ckc"/>
+                        <outlet property="sixButton" destination="NbG-23-VA1" id="Upe-Pp-hSI"/>
+                        <outlet property="subtractionButton" destination="TMm-EA-SSY" id="yVo-bC-YvZ"/>
+                        <outlet property="threeButton" destination="wdu-kW-1cq" id="kUd-up-Ec9"/>
+                        <outlet property="twoButton" destination="EUT-pc-thl" id="nLB-FW-Ksz"/>
+                        <outlet property="zeroButton" destination="fbb-Rv-xZy" id="zU5-Iy-MJ1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ec3-7u-aR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
