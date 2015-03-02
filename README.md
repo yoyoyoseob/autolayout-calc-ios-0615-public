@@ -1,5 +1,5 @@
 ---
-tags: Autolayout, advanced, design
+tags: autolayout, advanced, design
 languages:objc
 ---
 
