@@ -131,10 +131,10 @@
 
 -(void)addTextFieldConstraints
 {
-    NSArray *vTextFieldConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(myPadding)-[textField]" options:0 metrics:@{ @"myPadding": @100 } views:self.viewsDictionary];
+    NSArray *vTextFieldConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(myPadding)-[textField]" options:0 metrics:@{ @"myPadding": @30 } views:self.viewsDictionary];
     [self.textFieldContainer addConstraints:vTextFieldConstraints];
     
-    NSArray *hTextFieldConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[textField]-|" options:0 metrics:nil views:self.viewsDictionary];
+    NSArray *hTextFieldConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20.0-[textField]-20.0-|" options:0 metrics:nil views:self.viewsDictionary];
     [self.textFieldContainer addConstraints:hTextFieldConstraints];
 }
 
